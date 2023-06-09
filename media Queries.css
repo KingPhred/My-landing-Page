@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Topbar Styling */
+
+#topbar{
+    height: 90px;
+    background: linear-gradient(to left, #30A2FF, #79E0EE);
+    box-shadow: 2px 0 5px #BAD1C2;
+}
+
+#navbar{
+    padding: 10px 10px;
+}
+
+#list{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#logo{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 45px;
+    letter-spacing: -6px;
+    margin:12px 24px;
+    color: #4E3636;
+    
+    font-family: 'Tilt Prism', cursive;
+}
+
+.menu-items{
+    position: relative;
+    display: inline;
+    text-transform: capitalize;
+    padding: 5px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+}
+
+/* Section Styling */
+
+main{
+    padding: 2% 8%;
+    background: linear-gradient(45deg, #ECE5C7, #ECF2FF);
+}
+
+section{
+    width: 65%;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+section>img{
+    width: 100%;
+    height: 400px;
+}
+
+section>h1{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+section>p{
+    padding: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+aside{
+    width: 30%;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 16px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+aside>div{
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+aside>div:last-of-type{
+    border-bottom: none;
+}
+
+div>img{
+    width: 100%;
+    padding-top: 10px;
+}
+
+div>p{
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 768px){
+    
+    #navbar{
+        text-align: center;
+        padding: 0;
+    }
+
+    #logo{
+        display: block;
+        margin: 0;
+    }
+
+    main{
+        padding: 2% 5%;
+    }
+
+    section{
+        width: 100%;
+        display: block;
+    }
+
+    aside{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}
